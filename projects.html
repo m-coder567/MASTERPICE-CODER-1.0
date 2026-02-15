@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Milan Parmar | Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="gl"></canvas>
+    <div class="loader" id="page-loader">
+      <div class="loader-card">
+        <div class="spinner"></div>
+        <div class="check">✓</div>
+        <div class="loader-text">Loading...</div>
+      </div>
+    </div>
+    <audio id="bg-audio" loop preload="auto">
+      <source src="music.mp4" type="audio/mp4" />
+    </audio>
+
+    <nav class="nav glass">
+      <div class="logo">Milan Parmar</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="hire.html">Hire Me</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="pill" id="open-panel">Quick Info</button>
+    </nav>
+    <button class="audio-btn glass" id="audio-toggle">Play Music</button>
+
+    <aside class="panel glass" id="info-panel">
+      <div class="panel-header">
+        <span>Quick Info</span>
+        <button class="pill ghost" id="close-panel">Close</button>
+      </div>
+      <div class="panel-body">
+        <div class="panel-item">
+          <div class="label">Location</div>
+          <div class="value">India</div>
+        </div>
+        <div class="panel-item">
+          <div class="label">Focus</div>
+          <div class="value">WebGL · UI · Motion</div>
+        </div>
+        <div class="panel-item">
+          <div class="label">Availability</div>
+          <div class="value">Open for projects</div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="layout">
+      <section class="section glass" data-animate>
+        <div class="section-title">Projects</div>
+        <h1 class="page-title">Personal Portfolio Website</h1>
+        <div class="carousel">
+          <article class="slide">
+            <div class="slide-title">Personal Portfolio Website</div>
+            <div class="slide-meta">HTML · CSS · JavaScript</div>
+          </article>
+          <article class="slide">
+            <div class="slide-title">Responsive UI Showcase</div>
+            <div class="slide-meta">Clean · Modern · Minimal</div>
+          </article>
+          <article class="slide">
+            <div class="slide-title">Web Structure Practice</div>
+            <div class="slide-meta">About · Skills · Projects · Contact</div>
+          </article>
+        </div>
+        <p>
+          I designed and developed my own personal portfolio website to showcase my skills, projects, and career goals.
+          It uses HTML, CSS (and JavaScript where needed), is fully responsive, features a clean and modern UI, and
+          includes organized sections for About Me, Skills, Projects, and Contact. This project helped me strengthen my
+          frontend development skills and improve my understanding of website structure and design.
+        </p>
+        <div class="section-title">Certificate</div>
+        <img class="certificate" src="certificate.jpeg" alt="Certificate" />
+        <div class="section-title">Achievements</div>
+        <ul class="offer-list">
+          <li>Designed a responsive portfolio with clear sections and modern layout</li>
+          <li>Enhanced UI with smooth motion and a cinematic WebGL background</li>
+          <li>Practiced clean code structure and visual hierarchy</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer glass">
+      <span>© 2026 Milan Parmar</span>
+      <span>Classic Glass Portfolio</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
